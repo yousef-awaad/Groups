@@ -283,3 +283,14 @@ nav i:hover:not(.bi-people) {
     
 }
 
+@media (max-width: 450px) and (orientation: landscape) {
+    nav {
+        bottom: 20px;
+    }
+
+    .top {
+        position: relative;
+        top: 20px;
+    }
+}
+
