@@ -264,6 +264,8 @@ nav i:hover:not(.bi-people) {
         margin-left: 0;
         gap: 0;
         justify-content: space-around;
+        position: relative;
+        bottom: 10px;
     } 
 
     .gruops-container {
