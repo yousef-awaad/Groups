@@ -1,0 +1,37 @@
+nav .bi-gear {
+    color: var(--active);
+    border-bottom: 3px solid var(--active);
+}
+
+nav i:hover:not(.bi-gear) {
+    background: var(--glass-color);
+    border-radius: 5px;
+}
+
+.bottom {
+    background-color: var(--main-color);
+    border-radius: 10px;
+    display: grid;
+    grid-auto-rows: 60px;
+    gap: 0.6em;
+    box-shadow: var(--main-color) 0px 8px 24px;
+    cursor: pointer;
+}
+
+.bottom .setting {
+    display: flex;
+    align-items: center;
+    font-size: 1.05em;
+    gap: 1em;
+    border-radius: 8px;
+    padding: 0 1em;
+}
+
+.bottom .setting:hover {
+    background-color: var(--glass-color);
+}
+
+.setting i {
+    font-size: 1.5em;
+}
+

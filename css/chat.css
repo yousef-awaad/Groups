@@ -1,0 +1,91 @@
+nav .bi-chat-left-text {
+    color: var(--active);
+    border-bottom: 3px solid var(--active);
+}
+
+nav i:hover:not(.bi-chat-left-text) {
+    background: var(--glass-color);
+    border-radius: 5px;
+}
+
+.top .messages {
+    background-color: var(--main-color);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+
+.bottom {
+    background-color: var(--main-color);
+    border-radius: 10px;
+    display: grid;
+    grid-auto-rows: 100px;
+    gap: 0.6em;
+    box-shadow: var(--main-color) 0px 8px 24px;
+    cursor: pointer;
+}
+
+.bottom .chat {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 1.3em;
+}
+
+
+.bottom .chat:hover {
+    background-color: var(--glass-color);
+}
+
+.chat .person {
+    display: flex;
+    align-items: center;
+}
+
+.person .image {
+    width: 90px;
+}
+
+.image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.person p {
+    margin-left: 0.5em;
+}
+
+.chat .on {
+    padding: 8px;
+    background-color: rgb(66, 180, 128);
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 1em;
+    position: absolute;
+    left: 68px;
+    top: 65%;
+    color: rgb(242, 249, 246);
+    z-index: 2;
+}
+
+.chat .off {
+    padding: 8px;
+    background-color: rgb(239, 70, 70);
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 1em;
+    position: absolute;
+    left: 68px;
+    top: 65%;
+    color: rgb(242, 249, 246);
+    z-index: 2;
+}
+
+.chat .icons-container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 3em;
+    justify-content: space-around;
+}
