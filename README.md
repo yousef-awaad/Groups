@@ -15,14 +15,18 @@ This repository contains the frontend code for a responsive social platform buil
 
 - Here project screenshot (Mobile View):
 
-![Untitled design](https://github.com/user-attachments/assets/db4ad5b3-60b6-4127-9429-6787c9009d9b)<br>br>
-![Untitled design(1)](https://github.com/user-attachments/assets/edc3e243-a537-4fc6-99c2-1a6fc37e25da)<br><br>
-![Untitled design(2)](https://github.com/user-attachments/assets/7a43fa55-b5b9-4ad9-a15d-c216bb154bab)<br><br>
+<div align="center">
+	<img src="https://github.com/user-attachments/assets/b5f271c6-e527-4c72-a948-b1f322248ef8"><br><br>
+	<img src="https://github.com/user-attachments/assets/1603eb90-5af3-4115-9f3b-f83a0ca43df6"><br><br>
+	<img src="https://github.com/user-attachments/assets/8859780f-39fa-4048-838e-ef7c9c0bc9b9"><br><br>
+	<img src="https://github.com/user-attachments/assets/53c0bd38-1748-482a-8a92-9e791d3856cd"><br><br>
+	<img src="https://github.com/user-attachments/assets/330f1252-0e72-40bc-82bc-ad191e5bea65">
+</div><br>
 
 # Links
 
 <div align="center">
-	<h3><a href="https://yousef-awaad.github.io/Groups/">Live Preview</a></h3>
+	<h3><a href="https://yousef-awaad.github.io/Groups-App">Live Preview</a></h3>
 </div>
 
 - Icons from [Bootstrap Icons](https://icons.getbootstrap.com/).
